@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: rgb(62, 86, 98);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+  display: flex;
+}
+
+table {
+  margin: auto;
+  min-width: 50%;
+}
+
+.univ_name {
+  margin: 1rem;
+  text-align: center;
+  width: 90%;
+}
+
+.logo > img {
+  width: 100%;
+  height: auto;
+}
+
+.main_heading {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.get_input_details,
+.upload_marks,
+.get_csv_file,
+.get_session_form,
+.track_credits,
+.login {
+  margin: 1rem auto 1rem auto;
+  height: fit-content;
+  width: 75%;
+  padding: 1rem;
+  border: 1px;
+  border-radius: 1px;
+  background-color: rgb(192, 206, 206);
+  display: block;
+  align-items: center;
+}
+
+.label_regno,
+.label_session,
+.label_OTP { 
+  /* background-color: blueviolet; */
+  margin: 1rem auto 1rem auto;
+  text-align: center;
+  font-weight: 700;
+}
+
+ #regno,
+#otp,
+.input_session {
+  /* input field */
+  margin: 1rem auto 1rem auto;
+  display: block;
+  width: 50%;
+  height: 2rem;
+  font-weight: 700;
+  text-align: center;
+  font-size: larger;
+}
+
+.input_course_code {
+  padding: 1rem;
+}
+
+.buttons-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.submit_option,
+.submit_hall,
+.submit_marks_attendance,
+.submit_ext_marks,
+.btnn,
+.submit_session,
+.download_pdf ,
+#button{
+  background-color: rgb(72, 69, 69);
+  color: white;
+  padding: 1%;
+  margin: 1rem 40% 1rem 40%;
+  cursor: pointer;
+  width: 10rem;
+}
+.back_button{
+  background-color: rgb(72, 69, 69);
+  color: white;
+  padding: 1%;
+  margin: 1rem 50% 2rem 40%;
+  margin-left: 24rem;
+  cursor: pointer;
+  width: 10rem;
+
+}
+.submit_option {
+  margin: auto;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.submit_login,
+.submit_sess_exam_regn {
+  background-color: rgb(72, 69, 69);
+  color: white;
+  font-weight: 700;
+  height: 2rem;
+  padding: 0.5rem;
+  display: block;
+  margin: 1rem auto 1rem auto;
+}
+
+.submit_login:hover,
+.submit_sess_exam_regn:hover {
+  background-color: rgb(229, 229, 217);
+  color: black;
+}
+
+/* buttons on home page */
+.btnn {
+  font-size: 1.5em;
+  min-width: 50%;
+  margin: 1rem auto 1rem auto;
+  display: block;
+}
+
+/* colors of the links */
+a {
+  text-decoration: none;
+}
+
+a:link > button {
+  color: white;
+}
+
+/* a:visited > button {
+  color: rgb(221, 250, 184);
+} */
+
+a:hover > button {
+  background-color: rgb(229, 229, 217);
+  color: black;
+  font-weight: 700;
+}
+
+.course_details {
+  text-align: center;
+  margin: 1rem auto 1rem auto;
+  font-weight: bold;
+  background-color: rgb(192, 206, 206);
+  padding: 1rem 0 1rem 0;
+}
+
+.marks_table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+tr,
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5rem;
+  text-align: center;
+}
+input[type = submit] {
+  border: 1;
+  text-decoration: none;
+  cursor: pointer;
+  font-family:"Trebuchet MS";
+  font-size:18px;
+  width:100px;
+  height:50px;
+}
+input[type = text] {
+  border: 1;
+  text-decoration: none;
+  font-family:"Trebuchet MS";
+  font-size:20px;
+  width:120px;
+  height:30px;
+}
+input[type = password] {
+  border: 1;
+  text-decoration: none;
+  font-family:"Trebuchet MS";
+  font-size:20px;
+  width:120px;
+  height:30px;
+}
+
+
+#opt_sub{
+margin-left: 750px;
+box-shadow: inset;
+font-size: large ;
+}
+.form-center {
+  display:flex;
+  justify-content: center;
+}
+.form-center {
+  width:400px;
+  margin: 0 auto;
+}
+
+
+label{
+  letter-spacing: 0.8px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+button
+{
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: #000;
+}
+button:hover
+{
+  background-color: brown;   
+}
+select
+{
+  padding: 4px 4px;
+  border-radius: 10px;
+}
+.container3,.container4
+{
+  margin-bottom: 12px;
+  margin-left: 5%;
+}
+
+.container1
+{
+  position: relative;
+  width: 60%;
+  height: auto;
+  background-color: whitesmoke;
+  padding: 20px;
+  box-shadow: 0px 50px 50px rgba(0,0,0,0.3);
+  border-radius: 14px;
+}
+.container1 h2
+{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 35%;
+  padding: 0px 0px 20px 0px;
+}
+.container2
+{
+  margin-left: 20%;
+}
+.container2 button
+{
+  margin-left: 10%;
+  margin-bottom: 30px;
+}
+.container3 select
+{
+  margin-left: 8%;
+}
+.container4 select
+{
+  margin-left: 4.9%;
+}
+.container6 button
+{
+    margin: 20px;
+    margin-left: 25%;
+}
+.top_details{
+    font-family: 'Calibra';
+    font-size: 20px;
+}
+a{
+  color: white;
+}
